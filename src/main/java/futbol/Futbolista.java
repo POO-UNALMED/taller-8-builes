@@ -1,6 +1,6 @@
 package futbol;
 
-public class Futbolista implements Comparable<Object>{
+public class Futbolista implements Comparable<Futbolista>{
 	private String nombre;
 	private int edad;
 	private final String posicion;
@@ -16,7 +16,7 @@ public class Futbolista implements Comparable<Object>{
 		this.posicion = posicion;
 	}
 	
-	public int compareTo(Object f) {
+	public int compareTo(Futbolista f) {
 		return this.compareTo(f);
 	}
 	
