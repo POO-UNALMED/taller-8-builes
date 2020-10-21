@@ -36,7 +36,7 @@ public class Futbolista implements Comparable<Futbolista>{
 			return true;
 		}
 		return false;
-	};
+	}
 
 	public String getNombre() {
 		return nombre;
